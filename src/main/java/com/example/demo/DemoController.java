@@ -16,6 +16,8 @@ public class DemoController {
         return "ping";
     }
 
+    @GetMapping(path="/pang")
+    public String pang(){ return "pang"; }
 }
 
 
