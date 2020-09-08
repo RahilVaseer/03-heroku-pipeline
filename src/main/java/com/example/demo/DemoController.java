@@ -18,6 +18,9 @@ public class DemoController {
 
     @GetMapping(path="/pang")
     public String pang(){ return "pang"; }
+
+    @GetMapping(path="/hello")
+    public String hello(){ return "this is a wonderful world"; }
 }
 
 
