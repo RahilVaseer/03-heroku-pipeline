@@ -1,6 +1,10 @@
 language: java
+cache:
+  directories:
+    - .autoconf
+    - $HOME/.m2
 deploy:
   provider: heroku
-  app: pgr301-pipeline-example
+  app: pgr301-pipeline-example-1
   api_key:
     secure: OI73xI5BidqgRisOYQ27a7RAN8ucw4NKnngTSv0o0hipszyWQQiVJ7TIBEAWlff7v0vX2+CPzh2vWqO07Xs8coCFX1VFVChOOCicGx9sDmUooqXCzS8boBkOWJxGM80pi9mIRe4CMA+46eRpqTu+iAslzhAfOb7uX9gcfsV0YL3xCpNho3688Ok4EUBdOx0E3mayIBXSY/HP8ln7esF5clJglihedXL6UYE+sreGV28vO649k5Cgk6amQ00IRYPS347FU7/caU/yaxHOpWWnQ4F8bMR6AuHrL9iy14VLXp+lGopLQlSZ5kQrTDkZmauqdOAs5hHxGcv4qP01giFwMIsk4b2CQNBbuir1qErLUkZyz9CHndC9jnS4sYW36pJw960btcZZSMybR+MC+6PiPyxikzV97jPrw9ggZ9+tVTXFrEhQUgbSg2ZoHXg6igUKPJuHTZmRmLfgLJeD6ms4XEBl8IF4q1GOcwfh4rRyzOBaR4vSJOti0mRZURhXqPvahQ+2p09wnL87YGYg+MKsgLVLz9cXEZcGFvdlyrOs8kL1j2Ve6l6qFB9MSTVs4UBEj3oduilaKjVkwzq2xXQC5A7ckqoOZtlToWyZzURO3OqpBFxRYWLn27imiSYDUfyNk+/3qL0h8Xhr9LUlVwc4hqySjTM6CMqtXwxQzpBUtM4=
